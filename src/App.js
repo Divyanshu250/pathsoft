@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import './../src/assests/awesome/css/font-awesome.css'
 import './App.css';
 
 function App() {

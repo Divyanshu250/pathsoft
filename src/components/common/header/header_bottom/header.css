@@ -1,0 +1,55 @@
+.logo{
+    width: 250px;
+    display: inline-block;
+    padding-bottom: 4px;
+    vertical-align: bottom;
+}
+.Header_bottom .container{
+    padding: 10px;
+}
+.nav-top{
+    display: inline-block;
+    width:950px;
+    text-align: centers;
+    vertical-align: top;
+    
+}
+.nav-top li{
+    display: inline-block;
+    text-align: right;
+}
+.nav-top li a{
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.nav-top li a:hover{
+    color: blue;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+.nav-top li a:hover .dropdown{
+    display: block;
+}
+.dropdown li{
+    display: block;
+    text-align: left;
+}
+.dropdown li a{
+    display: block;
+    font-size: 15px;
+    padding: 10px 32px; 
+}
+.dropdown li a:hover{
+    color: blue;
+}
+.dropdown ul{
+    padding:16px 0px 0px;
+}
+.fa-caret-down:before{
+    padding: 5px;
+}

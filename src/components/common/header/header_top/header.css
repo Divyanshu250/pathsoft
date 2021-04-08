@@ -1,0 +1,37 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headertop{
+    background-color: #303036;
+}
+.headerinfo .leftinfo{
+    padding-left: 0px;
+}
+.headerinfo li  {
+    display: inline-block;
+}
+.headerinfo li a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+.leftinfo{
+    width: 500px;
+    display: inline-block;
+}
+.rightinfo{
+    width: 600px;
+    display: inline-block;
+    text-align: right;
+}
+.fa-envelope:before,.fa-phone:before{
+    padding-right: 2px;
+}
+ .fa-volume-control-phone:before {
+    padding-right: 2px;
+}
+.fa-instagram:before{
+    padding: 0px 0px;
+}
